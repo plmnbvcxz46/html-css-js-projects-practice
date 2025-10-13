@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blueviolet;
+}
+.search-container {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  width: fit-content;
+  top: 50vh;
+  left: 50vw;
+  background-color: inherit;
+  transform: translate(-50%, -50%);
+}
+
+.search-container input {
+  position: relative;
+  right: -1px;
+  background-color: white;
+  outline: none;
+  height: 40px;
+  width: 0px;
+  border: 0;
+  transition: width 0.5s ease-in-out, padding 0.5s 0.1s;
+  padding: 0px;
+}
+
+.search-container input.active {
+  padding: 20px;
+  width: 200px;
+  transition: width 0.5s ease-in-out, padding 0.5s 0.1s;
+}
+
+.search-container button {
+  position: relative;
+  left: -1px;
+  background-color: white;
+  border: 0;
+  height: 40px;
+  width: 40px;
+}
