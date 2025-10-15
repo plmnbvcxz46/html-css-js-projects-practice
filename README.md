@@ -39,7 +39,11 @@
    - 项目地址: [模糊加载](./blurry-loading/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/blurry-loading/index.html)
 
-6. - [ ] **滚动动画**
+6. - [x] **滚动动画**
+   <details>
+       <summary>查看笔记</summary>
+       看了几眼代码才会写的，重要的点就一个innerHeight和一个getBoundingClientRect函数（获取高度位置之类的东东）
+   </details>
 
    - 项目地址: [滚动动画](./scroll-animation/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/scroll-animation/index.html)
