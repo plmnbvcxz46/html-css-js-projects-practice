@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  background-color: wheat;
+  display: flex;
+}
+
+.split {
+  position: relative;
+  background-color: cadetblue;
+  width: 50%;
+  height: 100%;
+  flex: none;
+  background-size: cover;
+  color: white;
+  flex-shrink: 1;
+  overflow-x: hidden;
+}
+
+.split:hover {
+  width: 75%;
+}
+.left {
+  background-image: url(../ps.jpg);
+}
+.left::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  opacity: 0.3;
+}
+
+.right {
+  background-image: url(../xbox.jpg);
+}
+.right::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(5, 170, 24);
+  opacity: 0.3;
+}
+
+.left,
+.right,
+.left::before,
+.right::before {
+  transition: all 0.5s ease-in;
+}
+.btn {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  border: 5px solid white;
+  padding: 15px 60px 15px 60px;
+  font-size: 30px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: black;
+  border-color: black;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  white-space: nowrap;
+  font-size: 60px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+  .btn {
+    top: 30%;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+  }
+}

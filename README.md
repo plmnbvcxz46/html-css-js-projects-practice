@@ -48,7 +48,11 @@
    - 项目地址: [滚动动画](./scroll-animation/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/scroll-animation/index.html)
 
-7. - [ ] **分割着陆页**
+7. - [x] **分割着陆页**
+   <details>
+       <summary>笔记</summary>
+       重要的点就一个css变量的设置，一个媒体选择器来实现响应式。剩下的基本上都是些细枝末节的不同
+   </details>
 
    - 项目地址: [分割着陆页](./split-landing-page/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/split-landing-page/index.html)
