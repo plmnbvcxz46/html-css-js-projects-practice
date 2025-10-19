@@ -57,7 +57,11 @@
    - 项目地址: [分割着陆页](./split-landing-page/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/split-landing-page/index.html)
 
-8. - [ ] **表单波浪**
+8. - [x] **表单波浪**
+    <details>
+       <summary>笔记</summary>
+       js里有个重要知识点，innerHtml和innerContex，剩下的几个看名字就能猜出来作用，另外就是css里transition有个运动函数可以了解下，input也是根据基线来排的，不一定填满
+   </details>
 
    - 项目地址: [表单波浪](./form-input-wave/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/form-input-wave/index.html)
