@@ -66,7 +66,11 @@
    - 项目地址: [表单波浪](./form-input-wave/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/form-input-wave/index.html)
 
-9. - [ ] **声音板**
+9. - [x] **声音板**
+    <details>
+       <summary>笔记</summary>
+       挺简单地一个练习，多的知识点就一个audio元素，然后就是一个applenChild方法，innerHtml只能添加字符串作为后代元素，新节点只能用这个方法实现
+   </details>
 
    - 项目地址: [声音板](./sound-board/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/sound-board/index.html)
