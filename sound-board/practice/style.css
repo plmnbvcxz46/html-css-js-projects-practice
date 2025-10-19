@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: antiquewhite;
+}
+.buttons {
+  background: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.btn {
+  background-color: azure;
+  height: 50px;
+  width: 100px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+  background: rgb(250, 255, 255);
+}
