@@ -84,7 +84,11 @@
     - 项目地址: [老爸笑话](./dad-jokes/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/dad-jokes/index.html)
 
-11. - [ ] **事件键码**
+11. - [x] **事件键码**
+    <details>
+        <summary>笔记</summary>
+        点击事件keydown，window带的
+    </details>
 
     - 项目地址: [事件键码](./event-keycodes/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/event-keycodes/index.html)
