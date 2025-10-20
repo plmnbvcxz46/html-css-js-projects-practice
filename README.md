@@ -75,7 +75,11 @@
    - 项目地址: [声音板](./sound-board/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/sound-board/index.html)
 
-10. - [ ] **老爸笑话**
+10. - [x] **老爸笑话**
+     <details>
+        <summary>笔记</summary>
+        重点就是js里的异步，还有json
+    </details>
 
     - 项目地址: [老爸笑话](./dad-jokes/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/dad-jokes/index.html)
