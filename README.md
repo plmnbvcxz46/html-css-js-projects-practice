@@ -75,7 +75,11 @@
    - 项目地址: [声音板](./sound-board/index.html)
    - 在线演示: [在线演示](http://127.0.0.1:5500/sound-board/index.html)
 
-10. - [ ] **老爸笑话**
+10. - [x] **老爸笑话**
+     <details>
+        <summary>笔记</summary>
+        主要的就是异步的练习，异步的操作要用异步函数，fetch有两个参数，一个url一个配置文件，正常是返回一个promise，pomise在then中自动注入一个response参数，默认await就是等待到完成，并且附带一个返回参数的then方法，json里只有属性
+    </details>
 
     - 项目地址: [老爸笑话](./dad-jokes/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/dad-jokes/index.html)
