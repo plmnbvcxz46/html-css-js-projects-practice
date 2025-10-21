@@ -93,7 +93,11 @@
     - 项目地址: [事件键码](./event-keycodes/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/event-keycodes/index.html)
 
-12. - [ ] **常见问题折叠**
+12. - [x] **常见问题折叠**
+    <details>
+        <summary>笔记</summary>
+        文本折叠换行有两种方式，一个overflow-wrap控制且不切断，一个white-space控制换行行为，然后就是flex元素有个默认的minwith为auto，永远会被撑开，所以父亲元素要改为0，另外就是transition对auto到auto不起作用，js里的父亲元素parentNode
+    </details>
 
     - 项目地址: [常见问题折叠](./faq-collapse/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/faq-collapse/index.html)
