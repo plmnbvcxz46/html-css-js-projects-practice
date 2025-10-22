@@ -102,7 +102,11 @@
     - 项目地址: [常见问题折叠](./faq-collapse/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/faq-collapse/index.html)
 
-13. - [ ] **随机选择器**
+13. - [x] **随机选择器**
+    <details>
+        <summary>笔记</summary>
+        选项是根据文本内容来的，所以创建文本以前有个清空的操作，剩下的知识点filter，map，keyup，setinterval，clearinterval，textarea都记录在onenotes上了
+    </details>
 
     - 项目地址: [随机选择器](./random-choice-picker/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/random-choice-picker/index.html)
