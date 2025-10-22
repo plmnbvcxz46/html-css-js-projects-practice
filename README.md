@@ -111,7 +111,11 @@
     - 项目地址: [随机选择器](./random-choice-picker/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/random-choice-picker/index.html)
 
-14. - [ ] **动画导航**
+14. - [x] **动画导航**
+    <details>
+        <summary>笔记</summary>
+        勾吧玩意二好难写，基本实现上有很多细节不同，但是逻辑上挺简单的，自己写出来了但是看不懂教程的
+    </details>
 
     - 项目地址: [动画导航](./animated-navigation/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/animated-navigation/index.html)
