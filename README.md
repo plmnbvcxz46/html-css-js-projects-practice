@@ -120,7 +120,11 @@
     - 项目地址: [动画导航](./animated-navigation/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/animated-navigation/index.html)
 
-15. - [ ] **递增计数器**
+15. - [x] **递增计数器**
+    <details>
+        <summary>笔记</summary>
+        没啥可写的，很水的一个练习，一个获取元素属性的方法getAttributer，一个符号串前面加+能转换成数值，还有就是函数是为function类型的值，可以在内部递归调用，用settimeout
+    </details>
 
     - 项目地址: [递增计数器](./incrementing-counter/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/incrementing-counter/index.html)
