@@ -129,7 +129,11 @@
     - 项目地址: [递增计数器](./incrementing-counter/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/incrementing-counter/index.html)
 
-16. - [ ] **喝水提醒**
+16. - [x] **喝水提醒**
+    <details>
+        <summary>笔记</summary>
+         让我想想，用了有一个flex 1， 然后就是visibility和display， opacity的区别，函数位置写（）会执行，不写会调用该变量，所以箭头函数的位置如果是引用的话不能直接写函数名，得用箭头函数封装一下，var的css变量没啥好说的，查mdn去
+    </details>
 
     - 项目地址: [喝水提醒](./drink-water/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/drink-water/index.html)

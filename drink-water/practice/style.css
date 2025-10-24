@@ -1,0 +1,81 @@
+:root {
+  --fill-color: rgb(122, 201, 253);
+  --border-color: rgb(20, 114, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(51, 173, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+h3 {
+  font-weight: 300;
+}
+.cup {
+  overflow: hidden;
+  min-width: none;
+  display: flex;
+  flex-direction: column;
+  color: var(--border-color);
+  height: 300px;
+  width: 150px;
+  background-color: white;
+  border: 5px var(--border-color) solid;
+  border-radius: 0 0 40px 40px;
+  transition: 0.6s ease-out all;
+}
+.cups {
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cup-small {
+  overflow-wrap: break-word;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  height: 90px;
+  width: 50px;
+  border-width: 4px;
+  border-radius: 0 0 15px 15px;
+  cursor: pointer;
+}
+.cup-small.active {
+  background-color: var(--fill-color);
+}
+
+.remained {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  flex: 1;
+  transition: 0.6s ease-out all;
+}
+#liters {
+  font-size: 25px;
+  font-weight: bold;
+}
+.percentage {
+  background-color: var(--fill-color);
+  height: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.6s ease-out all;
+}
