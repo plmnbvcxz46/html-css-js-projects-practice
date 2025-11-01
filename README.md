@@ -138,7 +138,11 @@
     - 项目地址: [喝水提醒](./drink-water/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/drink-water/index.html)
 
-17. - [ ] **电影应用**
+17. - [x] **电影应用**
+    <details>
+        <summary>笔记</summary>
+         不是很难，那个电影显示的没搞太懂他怎么显示正确的，主要考察点应该就是js里的三个api调用
+    </details>
 
     - 项目地址: [电影应用](./movie-app/index.html)
     - 在线演示: [在线演示](http://127.0.0.1:5500/movie-app/index.html)
